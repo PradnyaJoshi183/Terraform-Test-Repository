@@ -1,6 +1,7 @@
 resource "aws_key_pair" "kp" {
   key_name   = var.key_name
-  public_key = file("~/.ssh/id_rsa.pub")
+  public_key = file("C:/Users/pradnya.joshi/.ssh/id_rsa.pub")
+
 }
 
 resource "aws_instance" "ubuntu" {
